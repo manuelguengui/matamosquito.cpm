@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estipo.css">
+    <title>Mata Mosquito</title>
+    
+</head>
+<body onresize="mudarTamanhoPalcoJogo()">
+
+    <div class="box">
+        <div class="container-vida">
+            <img src="imagens/coracao_cheio.png" width="40" height="40" class="vida" id="vida1">
+            <img src="imagens/coracao_cheio.png" width="40" height="40" class="vida" id="vida2">
+            <img src="imagens/coracao_cheio.png" width="40" height="40" class="vida" id="vida3">
+        </div>
+        <div class="tempo">
+            tempo restante: <strong id="tempo"></strong>
+        </div>
+    </div>
+
+    <script src="js/jogo.js"></script>
+</body>
+</html>
